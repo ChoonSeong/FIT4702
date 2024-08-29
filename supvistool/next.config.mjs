@@ -1,4 +1,6 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
-
-export default nextConfig;
+const nextConfig = {
+    transpilePackages: ["@radix-ui", "lucide-react"],
+  };
+  
+  export default nextConfig;
